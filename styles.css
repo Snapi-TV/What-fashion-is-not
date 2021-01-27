@@ -832,8 +832,13 @@ article {
 }
 
 @media (max-width: 375px) {
+	.half_screen {
+	width: 100%;
+	height: auto;
+	position: relative;
+
+}
 	.col_6_with_spacer{
-	
 	padding: 10PX;
 	height: 50vh;
 	}
@@ -849,7 +854,7 @@ article {
 	}
 	.quotes_vh h4 {
 	font-size: 0.7em;
-	
+
 	}
 	.menu_border {
 	height: max(auto, 20%);
