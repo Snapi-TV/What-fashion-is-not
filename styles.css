@@ -630,7 +630,7 @@ img {
 .half_screen {
 	width: 100%;
 	height: 100vh;
-	position: relative;
+	
 
 }
 #pinContainer h2{
@@ -835,12 +835,12 @@ article {
 	.half_screen {
 	width: 100%;
 	height: auto;
-	position: relative;
+	
 
 }
 	.col_6_with_spacer{
 	padding: 10PX;
-	height: 50vh;
+	height: 80vh;
 	}
 	.right_strip {
 	width: 0px;
@@ -868,4 +868,12 @@ article {
 	position: relative;
 	top: 0px;
 	}
+	.text_container {
+	height: auto;
+	padding-top: 150px;
+	padding-bottom: 50px;
+	width: 100%;
+	margin: 0 auto;
+	
+}
 }
