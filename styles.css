@@ -205,8 +205,8 @@ img {
 .end_section {
 	height: 50vh; /*temporary*/
 
-	background-color: white;
-	color: black;
+	background-color: #fff4e2;
+	color: #1c1c1c;
 	margin: 0;
 	
 }
@@ -792,7 +792,19 @@ article {
 	font-size: max(3.5em, 0.6vw);
 	}
 	.half_screen #pinContainer {
-		visibility: hidden;
+		display: none;
+	}
+	#pinContainer {
+		display: none;
+	}
+	#pinContainer1 {
+		display: none;
+	}
+	.line .half_screen {
+		display: none;
+	}
+	.none {
+		display: none;
 	}
 
 }
@@ -823,14 +835,28 @@ article {
 	#leo {
 	height: 50vh;
 	}
+	#leo {
+	height: 50vh;
+	}
+	#quarantine {
+	height: 50vh;
+	}
+	#mirror_of_society {
+	height: 50vh;
+	}
+	#crying_money {
+	height: 50vh;
+	}
 }
 
 @media (max-width: 375px) {
+	body {
+		font-size: 1.1em;
+	}
 	.running_strip {
-	height: 22px;
+	height: 25px;
 	}
 	.marquee-item {
-	margin-top: 1px;
 	width: 2200px;
 	display: inline-block;
 	font-size: 12px;
@@ -843,9 +869,8 @@ article {
 	width: 100%;
 	height: auto;
 	}
-
 	.col_6_with_spacer{
-	padding: 10PX;
+
 	height: auto;
 	}
 	.right_strip {
@@ -860,7 +885,9 @@ article {
 	}
 	.quotes_vh h4 {
 	font-size: 0.7em;
-
+	}
+	.quotes_vh h2{
+	font-size: 0.7em;
 	}
 	.menu_border {
 	height: max(auto, 20%);
@@ -876,10 +903,28 @@ article {
 	}
 	.text_container {
 	height: auto;
-	padding-top: 150px;
-	padding-bottom: 50px;
+	}
+	.quotes_100vh {
+	min-height: auto;
+	height: auto;
+	font-size: 2em;
+	padding-top: 20vh;
+	padding-bottom: 20vh;
+	padding-left: 15px;
+	padding-right: 15px;
+	}
+	#chapter03 .quotes_100vh {
+	padding-top: 20vh;
+	}
+	.quotes_scale {
+	font-size: 1.2em;
+	}
+	.col_9 {
 	width: 100%;
-	margin: 0 auto;
-	
-}
+	padding-left: 20px;
+	padding-right: 20px; 
+	}
+	.col_12 h2{
+	font-size: 2em;
+	}
 }
