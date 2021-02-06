@@ -8,7 +8,7 @@
     font-family: 'Anderson Grotesk';
     src: local('Anderson Grotesk Black'), local('Anderson-Grotesk-Black'),
         url('images/fonts/AndersonGroteskBlack.woff2') format('woff2'),
-        url('images/fonts/AndersonGroteskBlack.woff') format('woff'),
+        url('images/fonts/AndersonGroteskBlack.woff') format('woff');
         
     font-weight: 900;
     font-style: normal;
