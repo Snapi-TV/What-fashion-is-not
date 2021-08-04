@@ -13,6 +13,15 @@
     font-weight: 900;
     font-style: normal;
   }
+  @font-face {
+  font-family: 'Futura';
+    src: local('FuturaLT-Book'),
+        url('images/fonts/FuturaLT-Book.woff') format('woff'), local('FuturaLT-Bold'),
+        url('images/fonts/FuturaLT-Bold.woff') format('woff');
+        
+    font-weight: 900;
+    font-style: normal;
+  }
 
 @keyframes marqueeLeft {
 
@@ -76,7 +85,7 @@ body {
 	height: auto;
 	width: 100%;
 	margin: 0;
-	font-family: "futura";
+	font-family: "Futura";
 
 }
 
@@ -108,9 +117,13 @@ h2 {
 
 }
 h3 {
-	font-family: "futura";
+	font-family: "Futura";
 	font-size: 1em;
 
+}
+b {
+	font-family: "Futura";
+	font:"FuturaLT-Bold";
 }
 h4 {
 	font-family: 'bluunext';
